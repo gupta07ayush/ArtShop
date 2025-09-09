@@ -1,0 +1,27 @@
+# Backend
+backend/myenv/ 
+backend/.venv/
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+backend/__pycache__/
+backend/*/__pycache__/
+
+# Frontend  
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# General
+.DS_Store
+*.log
+
+# .gitattributes file (create this in your project root)
+* text=auto
+*.js text
+*.jsx text
+*.py text
+*.md text
+*.json text
+*.css text
+*.html text
